@@ -1,0 +1,2 @@
+smooth scrolling
+attach loco scroll cssattach locomotive scroll min js

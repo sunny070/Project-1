@@ -1,0 +1,10 @@
+1. smooth scrolling check
+    #attach loco scroll css (https://github.com/locomotivemtl/locomotive-scroll/blob/master/dist/locomotive-scroll.css)
+    #attach locomotive scroll min js (https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js)
+    #some code from loco git hub for js 
+        (const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+            });)
+2. gsap
+    #

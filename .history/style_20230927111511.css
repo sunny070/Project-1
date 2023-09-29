@@ -1,0 +1,91 @@
+*{
+    font-family: "General Sans";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+}
+#main{
+    width:100%;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    color:#fff;
+    background-color:black;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color:#fff;
+}
+#nav a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+#heading{
+    margin-top: 90px;
+}
+#heading h1{
+    
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-weight:900 ;
+    line-height: .9;
+    opacity: .6;
+    margin-left: 30px;
+}
+#heading #secondh1{
+    margin-left: 110.8px;
+}
+.blocktext{
+    width: fit-content;
+    /* background-color:red */
+}
+.blocktext h5{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: right;
+}
+#chotiheading{
+    padding-right: 50px;
+    margin-top: 100px;
+}
+#chotiheading h5{
+    text-transform: uppercase;
+    margin-top: .5vw;
+    font-size: 1vw;
+    text-align: right;
+}
+#herofooter{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#herofooter a{
+    text-transform: uppercase;
+    color:#fff;
+    text-decoration: none;
+
+}
+
+#herofooter .circle{
+display: flex;
+align-items:center;
+justify-content: center;
+width: 25px;
+
+}
